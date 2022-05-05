@@ -1,0 +1,13 @@
+# Package Overview
+package_name: model
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# The variable we are attempting to predict (sale price)
+target: <TargetColumn>
+
+pipeline_name: model
+pipeline_save_file: model_output_v
